@@ -5,3 +5,6 @@ All the versions of the deployments on vercel and Github
 -- 31-03-2024 --
     Vercel - https://vercel.com/varunharinath/project-aparna/AdhNUHpZBsgjhy4e2HmFxKQ5mPfm
     git - https://github.com/VarunHarinath/ProjectAparna/commit/e6e7cd02046c7268cdb359cb91fccfa9c55b88c3
+
+    Vercel - https://project-aparna-7yt0vujk2-varunharinath.vercel.app/
+    git - https://github.com/VarunHarinath/ProjectAparna/commit/a3220470021ec22d3eb1d555a3cc7d3731da7ce3
