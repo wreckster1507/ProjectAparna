@@ -2,9 +2,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+// Importing Componenets
+import Navbar from "./Components/Navbar & footbar/Navbar";
+import Footer from "./Components/Navbar & footbar/Footer";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
+
 const App = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         {/* Home Route */}
         <Route path="/" element={<div>Home</div>} />
@@ -22,20 +28,20 @@ const App = () => {
           element={<div>Block RepresentaƟves</div>}
         />
         {/* Contact Routes */}
-        <Route path="/contact/drectory" element={<div>Directory</div>} />
+        <Route path="/contact/directory" element={<div>Directory</div>} />
         <Route path="/contact/LocationMap" element={<div>Location Map</div>} />
         {/* Doucments Routes */}
-        <Route path="/doucments/bye-laws" element={<div>bye-laws</div>} />
-        <Route path="/doucments/SOP" element={<div>SOP</div>} />
+        <Route path="/documents/bye-laws" element={<div>bye-laws</div>} />
+        <Route path="/documents/SOP" element={<div>SOP</div>} />
         <Route
-          path="/doucments/Rule&Guidelines"
+          path="/documents/Rule-and-Guidelines"
           element={<div>Rules & Guidelines</div>}
         />
         <Route
-          path="/doucments/new-to-society"
+          path="/documents/new-to-society"
           element={<div>New to society</div>}
         />
-        <Route path="/doucments/downloads" element={<div>downloads</div>} />
+        <Route path="/documents/downloads" element={<div>downloads</div>} />
         {/* Happenings  Route*/}
         <Route
           path="/happenings/new-and-circulars"
@@ -46,10 +52,12 @@ const App = () => {
           element={<div>photos galaries</div>}
         />
         {/* Facilites Route */}
-        <Route path="facilites" element={<div>facilites</div>} />
+        <Route path="/facilities" element={<div>facilites</div>} />
         {/* Classifieds Route */}
         <Route path="/classifieds" element={<div>classifieds</div>} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 };
