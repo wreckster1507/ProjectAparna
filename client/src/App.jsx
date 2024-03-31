@@ -1,10 +1,26 @@
+// Importing Dependencies
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="bg-blue-500 text-white p-4">
-      <h1 className="text-2xl font-bold">Hello, this is Tailwind CSS!</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<div>Home</div>} />
+        <Route
+          path="/aboutus/AboutSociety"
+          element={<div>About societry</div>}
+        />
+        <Route
+          path="/aboutus/ManagementCommitee"
+          element={<div>Management CommiƩee</div>}
+        />
+        <Route
+          path="/aboutus/BlockRepresentaives"
+          element={<div>Block RepresentaƟves</div>}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
