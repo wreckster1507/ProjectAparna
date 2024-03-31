@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [showPopup, setShowPopup] = useState(false);
+  const formHandler = (e) => {
+    e.preventDefault();
+    setShowPopup(true);
+  };
   return (
     <footer className="bg-white">
       <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
@@ -10,7 +16,7 @@ const Footer = () => {
             Want to <span className=" text-sky-500">Connect</span> with us?
           </strong>
 
-          <form className="mt-6">
+          <form onSubmit={formHandler} className="mt-6">
             <div className="relative max-w-lg">
               <label className="sr-only" htmlFor="email">
                 {" "}
@@ -21,6 +27,8 @@ const Footer = () => {
                 className="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium"
                 id="email"
                 type="email"
+                value={email}
+                onChange={() => setEmail(event.target.value)}
                 placeholder="john@doe.com"
               />
 
@@ -273,24 +281,76 @@ const Footer = () => {
           <p className="text-center text-xs/relaxed text-gray-500">
             © Company 2022. All rights reserved.
             <br />
-            Created with
+            Created by Team
             <a
               href="#"
               className="text-gray-700 underline transition hover:text-gray-700/75"
             >
-              Laravel
+              Tech Wizards
             </a>
-            and
-            <a
-              href="#"
-              className="text-gray-700 underline transition hover:text-gray-700/75"
-            >
-              Laravel Livewire
-            </a>
-            .
           </p>
         </div>
       </div>
+      {showPopup && (
+        <div
+          role="alert"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+        >
+          <div className="rounded-xl border border-gray-100 bg-white p-4">
+            <div className="flex items-start gap-4">
+              <span className="text-green-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="h-6 w-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </span>
+
+              <div className="flex-1">
+                <strong className="block font-medium text-gray-900">
+                  Email Sent to {email}
+                </strong>
+
+                <p className="mt-1 text-sm text-gray-700">
+                  Your email has been sent successfully. We will get back to you
+                  soon.
+                </p>
+              </div>
+
+              <button
+                onClick={() => setShowPopup(false)}
+                className="text-gray-500 transition hover:text-gray-600"
+              >
+                <span className="sr-only">Dismiss popup</span>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="h-6 w-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </footer>
   );
 };

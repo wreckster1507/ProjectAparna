@@ -1,7 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [darkMode]);
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
   const [isContactDropdownOpen, setIsContactDropdownOpen] = useState(false);
   const [isDocumentsDropdownOpen, setIsDocumentsDropdownOpen] = useState(false);
@@ -231,6 +240,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
+
         <div>
           <img className="h-8 w-8 mt-2" src="/logo.svg" alt="Logo" />
         </div>

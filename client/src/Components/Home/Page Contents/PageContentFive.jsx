@@ -12,8 +12,8 @@ const PageContentFive = () => {
 
                 <p className="mt-4 text-gray-600 text-xl">
                   In Brixton Lot of Facilities available for Residents to Enjoy
-                  with thier Family and for shopping a Grocery Shop is operating
-                  inside the complex and also a Leading School “Maharishi Senior
+                  with thier Family and for shopping p Grocery Shop is operating
+                  inside the complex and also p Leading School “Maharishi Senior
                   Secondary School” Functioning inside the Complex. Best
                   Facilities in around Sriperumbudur is one of the biggest
                   attaraction for Families.
@@ -21,10 +21,7 @@ const PageContentFive = () => {
               </div>
 
               <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-                <p
-                  className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                  href="#"
-                >
+                <p className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
                   <span className="inline-block rounded-lg bg-gray-50 p-3">
                     <svg
                       className="h-6 w-6"
@@ -51,10 +48,7 @@ const PageContentFive = () => {
                   </p>
                 </p>
 
-                <a
-                  className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                  href="#"
-                >
+                <p className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
                   <span className="inline-block rounded-lg bg-gray-50 p-3">
                     <svg
                       className="h-6 w-6"
@@ -79,12 +73,9 @@ const PageContentFive = () => {
                   <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                     Lorem ipsum dolor sit amet consectetur.
                   </p>
-                </a>
+                </p>
 
-                <a
-                  className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                  href="#"
-                >
+                <p className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
                   <span className="inline-block rounded-lg bg-gray-50 p-3">
                     <svg
                       className="h-6 w-6"
@@ -109,12 +100,9 @@ const PageContentFive = () => {
                   <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                     Lorem ipsum dolor sit amet consectetur.
                   </p>
-                </a>
+                </p>
 
-                <a
-                  className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                  href="#"
-                >
+                <p className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
                   <span className="inline-block rounded-lg bg-gray-50 p-3">
                     <svg
                       className="h-6 w-6"
@@ -139,12 +127,9 @@ const PageContentFive = () => {
                   <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                     Lorem ipsum dolor sit amet consectetur.
                   </p>
-                </a>
+                </p>
 
-                <a
-                  className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                  href="#"
-                >
+                <p className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
                   <span className="inline-block rounded-lg bg-gray-50 p-3">
                     <svg
                       className="h-6 w-6"
@@ -169,12 +154,9 @@ const PageContentFive = () => {
                   <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                     Lorem ipsum dolor sit amet consectetur.
                   </p>
-                </a>
+                </p>
 
-                <a
-                  className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                  href="#"
-                >
+                <p className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
                   <span className="inline-block rounded-lg bg-gray-50 p-3">
                     <svg
                       className="h-6 w-6"
@@ -199,7 +181,7 @@ const PageContentFive = () => {
                   <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                     Lorem ipsum dolor sit amet consectetur.
                   </p>
-                </a>
+                </p>
               </div>
             </div>
           </div>
