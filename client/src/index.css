@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Customizes the whole scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Slimmer scrollbar for a more elegant look */
+}
+
+/* Customizes the background of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0; /* Soft light grey track */
+  border-radius: 4px; /* Slightly rounded corners for the track */
+}
+
+/* Customizes the scrollbar thumb (the moving part) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #a0a0a0,
+    #c0c0c0
+  ); /* Gradient thumb for a modern look */
+  border-radius: 4px; /* Rounded corners for the thumb */
+  border: 2px solid transparent; /* Ensures the thumb doesn't shrink on hover */
+  background-clip: content-box; /* Ensures the border transparency doesn't affect the thumb's background */
+}
+
+/* Adds a subtle shadow to the thumb for depth */
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Changes the thumb color on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #909090,
+    #b0b0b0
+  ); /* Slightly darker gradient on hover */
+}
