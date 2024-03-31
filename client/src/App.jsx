@@ -37,7 +37,25 @@ const App = () => {
           />
           {/* Doucments Routes */}
           <Route path="/documents/bye-laws" element={<div>bye-laws</div>} />
+          {/* SOP Routes */}
           <Route path="/documents/SOP" element={<div>SOP</div>} />
+          <Route
+            path="/documents/SOP/maintenance-charges"
+            element={<div>Maintenance Charges</div>}
+          />
+          <Route
+            path="/documents/SOP/move-in-move-out"
+            element={<div>Move in and Move OUt</div>}
+          />
+          <Route
+            path="/documents/id-card-vechicle"
+            element={<div>ID card and Vechcile</div>}
+          />
+          <Route
+            path="/documents/SOP/interior-work"
+            element={<div>Interior Work</div>}
+          />
+          {/* End of SOP Routes */}
           <Route
             path="/documents/Rule-and-Guidelines"
             element={<div>Rules & Guidelines</div>}

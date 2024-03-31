@@ -18,13 +18,14 @@ const Navbar = () => {
     useState(false);
   const [isMemberLoginDropdownOpen, setIsMemberLoginDropdownOpen] =
     useState(false);
-
+  const [isSopDropdownOpen, setIsSopDropdownOpen] = useState(false);
   const toggleAboutDropdown = () => {
     setIsAboutDropdownOpen(!isAboutDropdownOpen);
     setIsContactDropdownOpen(false);
     setIsDocumentsDropdownOpen(false);
     setIsHappeningsDropdownOpen(false);
     setIsMemberLoginDropdownOpen(false);
+    setIsSopDropdownOpen(false);
   };
 
   const toggleContactDropdown = () => {
@@ -144,12 +145,42 @@ const Navbar = () => {
                 >
                   Rules & Guidelines
                 </Link>
-                <Link
-                  to="/documents/SOP"
-                  className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
+                <div
+                  onMouseEnter={() => setIsSopDropdownOpen(true)}
+                  onMouseLeave={() => setIsSopDropdownOpen(false)}
                 >
-                  SOP
-                </Link>
+                  <span className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white cursor-pointer">
+                    SOP
+                  </span>
+                  {isSopDropdownOpen && (
+                    <div className="absolute left-full top-0 mt-0 ml-0 w-48 bg-gray-700 text-white rounded-md shadow-lg">
+                      <Link
+                        to="/documents/SOP/maintenance-charges"
+                        className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
+                      >
+                        Maintenance Charges
+                      </Link>
+                      <Link
+                        to="/documents/SOP/move-in-move-out"
+                        className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
+                      >
+                        Move In / Move Out
+                      </Link>
+                      <Link
+                        to="/documents/id-card-vechicle"
+                        className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
+                      >
+                        ID Card & Vechicle
+                      </Link>
+                      <Link
+                        to="/documents/SOP/interior-work"
+                        className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
+                      >
+                        Interior Work
+                      </Link>
+                    </div>
+                  )}
+                </div>
                 <Link
                   to="/documents/new-to-society"
                   className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
