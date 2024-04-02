@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Announcement from "../Home/Page Contents/Announcement";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -456,7 +457,7 @@ const Navbar = () => {
                   Happenings
                 </div>
                 {isHappeningsDropdownOpen && (
-                  <div className="absolute left-0 mt-1 w-48 bg-black text-white rounded-md shadow-lg z-20">
+                  <div className="absolute left-0 mt-0 w-48 bg-black text-white rounded-md shadow-lg z-20">
                     <Link
                       to="/happenings/new-and-circulars"
                       className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
@@ -530,6 +531,7 @@ const Navbar = () => {
           </div>
         </div>
       </header>
+      <Announcement />
     </>
   );
 };
