@@ -166,7 +166,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/aboutus/AboutSociety"
                   >
                     {" "}
                     About Society{" "}
@@ -176,7 +176,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/aboutus/ManagementCommitee"
                   >
                     Management Committe
                   </a>
@@ -185,7 +185,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/aboutus/BlockRepresentaives"
                   >
                     Block Representatives
                   </a>
@@ -200,7 +200,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/documents/bye-laws"
                   >
                     {" "}
                     Bye - Laws{" "}
@@ -210,7 +210,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/documents/Rule-and-Guidelines"
                   >
                     {" "}
                     Rules and Guidelines{" "}
@@ -220,7 +220,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/documents/SOP"
                   >
                     {" "}
                     SOP{" "}
@@ -230,7 +230,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/documents/new-to-society"
                   >
                     {" "}
                     New to Society{" "}
@@ -246,7 +246,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/lo"
                   >
                     {" "}
                     FAQs{" "}
@@ -256,7 +256,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/contact/directory"
                   >
                     {" "}
                     Directory{" "}
@@ -266,7 +266,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    href="/contact/LocationMap"
                   >
                     {" "}
                     Location Map{" "}
