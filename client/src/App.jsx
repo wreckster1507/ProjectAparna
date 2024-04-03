@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar & footbar/Navbar";
 import Footer from "./Components/Navbar & footbar/Footer";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Home from "./Components/Home/Home";
+import FeatureComingSoon from "./Components/ErrorPage/FeatureComingSoon";
 
 const App = () => {
   return (
@@ -79,6 +80,7 @@ const App = () => {
           {/* Classifieds Route */}
           <Route path="/classifieds" element={<div>classifieds</div>} />
           <Route path="*" element={<ErrorPage />} />
+          <Route path="/featurecommingsoon" element={<FeatureComingSoon />} />
         </Routes>
       </div>
       <Footer />

@@ -499,25 +499,25 @@ const Navbar = () => {
                 {isMemberLoginDropdownOpen && (
                   <div className="absolute left-0 mt-0 w-48 bg-black text-white rounded-md shadow-lg z-20">
                     <Link
-                      to="/member-dforum"
+                      to="/featurecommingsoon"
                       className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
                     >
                       Member Forum
                     </Link>
                     <Link
-                      to="/complaidnts"
+                      to="/featurecommingsoon"
                       className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
                     >
                       Complaints
                     </Link>
                     <Link
-                      to="/feedbadck"
+                      to="/featurecommingsoon"
                       className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
                     >
                       Feedback
                     </Link>
                     <Link
-                      to="/post-cdlassified"
+                      to="/featurecommingsoon"
                       className="block px-4 py-2 text-sm hover:bg-blue-600 hover:text-white"
                     >
                       Post Classified

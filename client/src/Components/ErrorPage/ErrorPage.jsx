@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ErrorPage = () => {
   return (
     <>
-      {/* <div className="grid h-screen place-content-center bg-white px-4">
+      <div className="grid h-screen place-content-center bg-white px-4">
         <div className="text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -35,12 +35,6 @@ const ErrorPage = () => {
             Go Home
           </Link>
         </div>
-      </div> */}
-      <div className="grid h-screen place-content-center bg-white px-4">
-        <h1 className="uppercase tracking-widest text-gray-500">
-          Feature Comming Soon |{" "}
-          <span className=" font-semibold text-sky-700">Project Aparna</span>
-        </h1>
       </div>
     </>
   );
