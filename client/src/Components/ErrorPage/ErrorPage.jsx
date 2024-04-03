@@ -38,7 +38,8 @@ const ErrorPage = () => {
       </div> */}
       <div className="grid h-screen place-content-center bg-white px-4">
         <h1 className="uppercase tracking-widest text-gray-500">
-          Comming Soon | Project Aparna
+          Feature Comming Soon |{" "}
+          <span className=" font-semibold text-sky-700">Project Aparna</span>
         </h1>
       </div>
     </>
