@@ -166,7 +166,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/aboutus/AboutSociety"
+                    to="/aboutus/AboutSociety"
                   >
                     {" "}
                     About Society{" "}
@@ -176,7 +176,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/aboutus/ManagementCommitee"
+                    to="/aboutus/ManagementCommitee"
                   >
                     Management Committe
                   </Link>
@@ -185,7 +185,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/aboutus/BlockRepresentaives"
+                    to="/aboutus/BlockRepresentaives"
                   >
                     Block Representatives
                   </Link>
@@ -200,7 +200,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/documents/bye-laws"
+                    to="/documents/bye-laws"
                   >
                     {" "}
                     Bye - Laws{" "}
@@ -210,7 +210,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/documents/Rule-and-Guidelines"
+                    to="/documents/Rule-and-Guidelines"
                   >
                     {" "}
                     Rules and Guidelines{" "}
@@ -220,7 +220,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/documents/SOP"
+                    to="/documents/SOP"
                   >
                     {" "}
                     SOP{" "}
@@ -230,7 +230,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/documents/new-to-society"
+                    to="/documents/new-to-society"
                   >
                     {" "}
                     New to Society{" "}
@@ -246,7 +246,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/lo"
+                    to="/lo"
                   >
                     {" "}
                     FAQs{" "}
@@ -256,7 +256,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/contact/directory"
+                    to="/contact/directory"
                   >
                     {" "}
                     Directory{" "}
@@ -266,7 +266,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/contact/LocationMap"
+                    to="/contact/LocationMap"
                   >
                     {" "}
                     Location Map{" "}
