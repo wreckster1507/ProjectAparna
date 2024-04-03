@@ -164,31 +164,31 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-1">
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/aboutus/AboutSociety"
                   >
                     {" "}
                     About Society{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/aboutus/ManagementCommitee"
                   >
                     Management Committe
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/aboutus/BlockRepresentaives"
                   >
                     Block Representatives
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -198,43 +198,43 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-1">
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/documents/bye-laws"
                   >
                     {" "}
                     Bye - Laws{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/documents/Rule-and-Guidelines"
                   >
                     {" "}
                     Rules and Guidelines{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/documents/SOP"
                   >
                     {" "}
                     SOP{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/documents/new-to-society"
                   >
                     {" "}
                     New to Society{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -244,33 +244,33 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-1">
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/lo"
                   >
                     {" "}
                     FAQs{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/contact/directory"
                   >
                     {" "}
                     Directory{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="/contact/LocationMap"
                   >
                     {" "}
                     Location Map{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
