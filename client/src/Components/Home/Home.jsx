@@ -14,6 +14,7 @@ const Home = () => {
     <>
       {/* Sroll Button Implementation */}
       <ScrollUpButton />
+      {/* Add Content - 1 */}
       {/* Carousal */}
       <PageContentOne />
       {/* Page content -2 */}
@@ -26,6 +27,7 @@ const Home = () => {
       <PageContentFive />
       {/* Page content - 6 */}
       <PageContentSix />
+
       {/* Scroll to Top Button */}
     </>
   );

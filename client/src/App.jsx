@@ -2,6 +2,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 // Importing Componenets
 import Navbar from "./Components/Navbar & footbar/Navbar";
 import Footer from "./Components/Navbar & footbar/Footer";
@@ -18,6 +19,7 @@ const App = () => {
           {/* Home Route */}
           <Route path="/" element={<Home />} />
           {/* About Us Routes */}
+
           <Route
             path="/aboutus/AboutSociety"
             element={<div>About societry</div>}
@@ -83,6 +85,7 @@ const App = () => {
           <Route path="/featurecommingsoon" element={<FeatureComingSoon />} />
         </Routes>
       </div>
+
       <Footer />
     </BrowserRouter>
   );
