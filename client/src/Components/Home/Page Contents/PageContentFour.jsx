@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const PageContentFour = () => {
@@ -28,7 +29,7 @@ const PageContentFour = () => {
                   </h2>
 
                   <p className="mt-4 text-gray-600">
-                    <ol class="list-decimal list-inside space-y-2 text-lg font-normal text-gray-700">
+                    <ol className="list-decimal list-inside space-y-2 text-lg font-normal text-gray-700">
                       <li>Simple, Safe, and Transparent process.</li>
                       <li>
                         List your available apartment with the Rental Assistance

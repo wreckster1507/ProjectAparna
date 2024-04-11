@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const images = [
   "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -25,9 +25,8 @@ const PageContentOne = () => {
           {images.map((image, index) => (
             <div
               key={index}
-              className={`carousel-slide absolute inset-0 w-full h-full transition-opacity duration-700 ${
-                index === activeIndex ? "opacity-100" : "opacity-0"
-              }`}
+              className={`carousel-slide absolute inset-0 w-full h-full transition-opacity duration-700 ${index === activeIndex ? "opacity-100" : "opacity-0"
+                }`}
             >
               <img
                 src={image}
@@ -86,11 +85,10 @@ const PageContentOne = () => {
             <button
               key={index}
               onClick={() => setActiveIndex(index)}
-              className={`block w-3 h-3 rounded-full ${
-                index === activeIndex
-                  ? "bg-blue-500"
-                  : "bg-white border border-gray-300"
-              }`}
+              className={`block w-3 h-3 rounded-full ${index === activeIndex
+                ? "bg-blue-500"
+                : "bg-white border border-gray-300"
+                }`}
             ></button>
           ))}
         </div>

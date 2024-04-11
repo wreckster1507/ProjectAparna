@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-md">
           <strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl">
-            Want to <span className=" text-sky-500">Connect</span> with us?
+            Want to <span className="text-blue-500 ">Connect</span> with us?
           </strong>
 
           <form onSubmit={formHandler} className="mt-6">
